@@ -36,13 +36,13 @@ main {
     color: #e53170;
     font-weight: bolder;
     font-size: 3rem;
-    margin-top: 75px;
+    margin: 40px;
 }
 
 .subtitle {
     text-align: center;
     font-size: 1.25rem;
-    margin: 50px;
+    margin: 40px;
 }
 
 /* CARD SECTION SETTING AND STYLE */
@@ -51,8 +51,12 @@ main {
     width: 100%;
 }
 
+.row {
+    margin: auto;
+}
+
 .card{
-    width: calc(100% / 3 - 60px);
+    width: calc(100% / 3 - 40px);
     background-color: #0f0e17;
     float: left;
     margin: 20px;
