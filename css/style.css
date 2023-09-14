@@ -51,10 +51,6 @@ main {
     width: 100%;
 }
 
-.row {
-    margin: auto;
-}
-
 .card{
     width: calc(100% / 3 - 40px);
     background-color: #0f0e17;
