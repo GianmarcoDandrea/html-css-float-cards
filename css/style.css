@@ -27,7 +27,7 @@ body {
 /* TITLE AND SUBTITLE STYLE SETTING */
 
 main {
-    width: 70%;
+    width: 85%;
     margin: auto;
 }
 
@@ -43,5 +43,45 @@ main {
     text-align: center;
     font-size: 1.25rem;
     margin: 50px;
-
 }
+
+/* CARD SECTION SETTING AND STYLE */
+
+.container{
+    width: 100%;
+}
+
+
+.card{
+    width: calc(100% / 3 - 60px);
+    background-color: #0f0e17;
+    float: left;
+    margin: 20px;
+}
+
+.photos{
+    width: 110px;
+    float: left;
+    margin-right: 10px;
+}
+
+.card > *:not(.photos) {
+    padding: 4px ;
+}
+
+.name{
+    color: white;
+    font-size: 1.45rem;
+    font-weight: bold;
+}
+
+.job{
+    color: white;
+    font-size: 1.20rem;
+}
+
+.email{
+    color: #39a4e2;
+    font-size: 0.85rem;
+}
+
