@@ -51,7 +51,6 @@ main {
     width: 100%;
 }
 
-
 .card{
     width: calc(100% / 3 - 60px);
     background-color: #0f0e17;
@@ -77,11 +76,10 @@ main {
 
 .job{
     color: white;
-    font-size: 1.20rem;
+    font-size: 1.10rem;
 }
 
 .email{
     color: #39a4e2;
-    font-size: 0.85rem;
+    font-size: 0.90rem;
 }
-
