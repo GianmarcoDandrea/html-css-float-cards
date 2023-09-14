@@ -64,7 +64,7 @@ main {
     margin-right: 10px;
 }
 
-.card > *:not(.photos) {
+.card > *:not(.photo) {
     padding: 4px ;
 }
 
