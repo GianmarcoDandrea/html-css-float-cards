@@ -12,7 +12,7 @@ img {
 }
 
 /* CLEARFIX */
-.clearfix::after{
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -31,7 +31,7 @@ main {
     margin: auto;
 }
 
-.title{
+.title {
     text-align: center;
     color: #e53170;
     font-weight: bolder;
@@ -47,7 +47,7 @@ main {
 
 /* CARD SECTION SETTING AND STYLE */
 
-.container{
+.container {
     width: 100%;
 }
 
@@ -56,14 +56,13 @@ main {
     padding: 10px;
     float: left;
 }
-.card{
+.card {
     width: 100%;
     background-color: #0f0e17;
     float: left;
-
 }
 
-.photo{
+.photo {
     width: 110px;
     float: left;
     margin-right: 10px;
@@ -73,18 +72,18 @@ main {
     padding: 4px ;
 }
 
-.name{
+.name {
     color: white;
     font-size: 1.45rem;
     font-weight: bold;
 }
 
-.job{
+.job {
     color: white;
     font-size: 1.10rem;
 }
 
-.email{
+.email {
     color: #39a4e2;
     font-size: 0.90rem;
 }
