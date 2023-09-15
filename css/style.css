@@ -53,7 +53,7 @@ main {
 
 .col {
     width: calc(100% / 3);
-    padding: 20px;
+    padding: 1.25rem;
     float: left;
 }
 .card {
